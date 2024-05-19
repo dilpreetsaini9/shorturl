@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100vw;
+  height: 70vh;
+}
+body {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: red;
+}
+img {
+  margin: 0 auto;
+  width: 15rem;
+  height: auto;
+}
+#input-div {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+input {
+  padding: 7px;
+  font-size: 1rem;
+}
+#input-div > button {
+  padding: 5px;
+  cursor: pointer;
+}
+.clipboard {
+  width: 1rem;
+}
+.output {
+  opacity: 0.2;
+}
+#notice {
+  display: none;
+}
+@media (max-width: 500px) {
+  /* Your CSS rules go here */
+
+  img {
+    margin: 0 auto;
+    width: 9rem;
+    height: auto;
+  }
+  #input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+}
